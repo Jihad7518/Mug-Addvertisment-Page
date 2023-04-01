@@ -29,3 +29,29 @@
     justify-self: right;
     
 }
+
+.mug{
+    border-radius: 10px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    overflow: hidden;
+    height: 500px;
+    width: 100%;
+
+}
+.mug img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    box-shadow: 0 0 20px #333;
+}
+.div2{
+    background-color: white;
+    padding: 20px;
+    height: 500px;
+    width: 400px;
+    align-self: center;
+    justify-self: left;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
